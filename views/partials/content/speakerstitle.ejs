@@ -1,0 +1,11 @@
+<article class="nextmeeting">
+  <h1>Titles:
+</h1>
+  <ul>
+    <% appdata.speakers.forEach(function(items){%>
+      <li>
+        <%= items.title%>
+      </li>
+      <%})%>
+  </ul>
+</article>

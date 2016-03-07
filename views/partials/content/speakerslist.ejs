@@ -1,0 +1,14 @@
+<article class="speakers">
+  <section class="layout">
+    <div>
+      <% appdata.speakers.forEach(function(items){%>
+        <section class="speakerslist">
+          <h1><%=items.name%></h1>
+          <p>
+            <%- items.description%>
+          </p>
+        </section>
+        <%})%>
+    </div>
+  </section>
+</article>
